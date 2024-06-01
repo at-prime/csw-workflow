@@ -8,7 +8,7 @@ on:
       tfpath:
         description: 'TF File Path'     
         required: false
-        default: 'terraform-template'
+        default: 'terraform-template/csw'
   push:
     branches: [ main ]
   pull_request:

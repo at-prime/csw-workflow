@@ -12,8 +12,8 @@ on:
         default: 'terraform-template/csw'
   push:
     branches: [ main ]
-  # pull_request:
-  #   branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   tf_code_check:

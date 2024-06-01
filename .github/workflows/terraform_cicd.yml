@@ -1,6 +1,7 @@
 name: Cisco SecureWorkload TF flow
 
 on:
+  
   workflow_call:
   workflow_dispatch:
     # Inputs the workflow accepts.
@@ -10,7 +11,8 @@ on:
         required: false
         default: 'terraform-template/csw'
   push:
-    branches: [ main ]
+    branches: 
+      - main 
   pull_request:
     branches: [ main ]
 
